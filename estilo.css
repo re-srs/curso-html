@@ -1,0 +1,117 @@
+body{
+	
+	font-family:Arial;
+	margin:0 0 30px 0;
+	background:url('../imagens/fundo_branco.png')
+	
+}
+div#header{
+	
+	width:1200px;
+	height:194px;
+	margin:0px auto;
+	
+}
+div#header h1{
+	
+	margin-top:60px;
+	display:block;
+	float: left;
+	
+}
+ul#nav{
+	
+	list-style:none;/*tira os pontinhos da lista*/
+	padding-left:0px;
+	display:block;
+	float: left; /*deixa a lista horizontal*/
+	margin-left:318px;
+	margin-top:84px;
+}
+ul#nav li {
+	
+	float: left;
+	margin-left:70px;
+}
+ul#nav a {
+	
+	text-decoration:none;/*tira o sublinhado do link do menu*/
+	color:#5b5b5b;/*cor da letra do menu*/
+	padding-top:11px;
+	
+}
+ul#nav a:hover{ /*quando o mouse passar sobre o menu*/
+	
+	border-top:5px solid #f3e039;/*borda amarela em cima do menu*/
+}
+ul#nav a.ativa{ /*quando o link do menu estiver ativo*/
+
+	border-top:5px solid #d87d1e;
+	
+}
+div#banner{
+	
+	width:1200px;
+	height:424px;
+	margin: 0 auto;
+	background:url('../imagens/banner.jpg') no-repeat;
+	position:relative;
+}
+div#banner a {
+	
+	position:absolute;
+	top:306px;
+	left:912px;
+}
+div#banner a img{
+	
+	border:none;
+	
+}
+div#section{
+	
+	width:1200px;
+	margin:50px auto 60px auto;
+	
+	
+}
+div.article{
+	
+	width:378px;
+	display:block;
+	float:left;
+	margin:0 8px;
+}
+div.article h1{
+	
+	color:#4e4e54;
+	font-size:30px;
+	font-weight:bold;/*coloca o negrito na letra*/
+	text-transform:uppercase;/*deixa o texto maiusculo*/
+}
+div.article p{
+	
+	color:#4e4e54;
+}
+div.article a {
+	
+	font-weight:bold;
+	background-color:#000000;
+	color:#FFFFFF;
+	font-size:15px;
+	text-decoration:none; /*tira o sublinhado do link*/
+	padding: 12px 45px;
+}
+div#footer{
+	
+	background-color:#f3df39;
+	width:1160px;
+	height:30px;
+	margin:0 auto;
+	padding: 20px;
+}
+div#footer p {
+	
+	text-align:right;
+	margin:0;
+}
